@@ -64,6 +64,8 @@ body {
     grid-template-rows: 1fr 2fr;
     height: 100vh;
     width: 100%;
+    font-family: "Helvetica";
+
 }
 
 .text, .form-submit {
@@ -85,7 +87,6 @@ h1 {
 .form {
     display: grid;
     grid-auto-rows: 1fr;
-    font-family: "Helvetica";
 }
 
 .form-inner {
@@ -138,6 +139,7 @@ button {
     background-color: var(--main-clr);
     color: white;
     padding: 0.5rem 2.5rem;
+    margin-bottom: 2rem;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -165,5 +167,14 @@ input[data-error='true'] {
     position: absolute;
     font-size: 0.75rem;
     color: var(--red-alert);
+}
 
+button + p {
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-clr);
+    font-weight: 700;
 }
